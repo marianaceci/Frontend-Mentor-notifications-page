@@ -1,0 +1,78 @@
+.card-container{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 87.5%;
+    font-weight: 500;
+}
+
+.card-container img {
+    width: 40px;
+    height: fit-content;
+    align-self: flex-start;
+}
+
+.card-text {    
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    line-height: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.card-text strong {
+    color: black;
+}
+
+span {
+    color: var(--grayish-blue);
+}
+
+.card-container:nth-child(2), .card-container:nth-child(3), .card-container:nth-child(4) {
+    background-color: var(--bg-card);
+    border-radius: 5px;
+}
+
+.card-container:nth-child(2) p::after, .card-container:nth-child(3) p::after, .card-container:nth-child(4) p::after {
+    content: ' \2022';
+    color: var(--red);
+    font-size: 150%;
+    line-height: 16px;
+}
+
+.card-container:nth-child(4) b, .card-container:nth-child(8) b {
+    color: var(--blue);
+}
+
+.card-container:nth-child(5) span::after {
+    content: "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.";
+    display: block;
+    color: var(--dark-grayish-blue);
+    border: 2px solid var(--bg-message);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.card-container:nth-child(5) span:hover::after {
+    cursor: pointer;
+    background-color: var(--bg-message);
+}
+
+.card-container:nth-child(6)::after {
+    background-image: url('../../images/image-chess.webp');
+    background-size: 38px 38px;
+    display: inline-block;
+    margin-left: auto;
+    width: 38px; 
+    height: 38px;
+    content: '';
+    cursor: pointer;
+}
+
+.card-container strong:hover, .card-container b:hover {
+    color: var(--blue);
+    cursor: pointer;
+}

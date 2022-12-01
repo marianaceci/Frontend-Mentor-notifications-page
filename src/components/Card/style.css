@@ -30,16 +30,14 @@ span {
     color: var(--grayish-blue);
 }
 
-.card-container:nth-child(2), .card-container:nth-child(3), .card-container:nth-child(4) {
+.isUnread {
     background-color: var(--bg-card);
     border-radius: 5px;
 }
 
-.card-container:nth-child(2) p::after, .card-container:nth-child(3) p::after, .card-container:nth-child(4) p::after {
+.isUnread p::after {
     content: ' \2022';
     color: var(--red);
-    font-size: 150%;
-    line-height: 16px;
 }
 
 .card-container:nth-child(4) b, .card-container:nth-child(8) b {

@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/js-with-react-i18xECMCKo](https://www.frontendmentor.io/solutions/js-with-react-i18xECMCKo)
+- Live Site URL: [https://frontend-mentor-notifications-page-gray.vercel.app/](https://frontend-mentor-notifications-page-gray.vercel.app/)
 
 ## My process
 
